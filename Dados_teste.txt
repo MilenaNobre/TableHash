@@ -1,0 +1,50 @@
+1;Gael Apolinario Morais;592.016.519-61;Pensão por morte de ex-combatente;Devolução;Banco;Não-Quitado
+2;Vitoria Alvim Teixeira;494.053.666-69;Pensão por morte do Regime Geral (Decreto nº20.465/31);Devolução;Banco;Não-Quitado
+3;Otavio Albuquerque Neves;353.332.402-76;Pensão por morte de ex-combatente;Cobrança;Não-Quitado
+4;Maria Alvim Ornelas;105.493.109-02;Pensão por morte do trabalhador rural;Cobrança;Quitado
+5;Thiago Alvim Gomes;671.083.807-66;Pensão por morte de servidor público federal com dupla aposentadoria;Cobrança;Não-Quitado
+6;Victor Brito Caetano;322.365.458-83;Pensão por morte de ex-combatente marítimo(Lei nº1.756/52);Devolução;MOB;Não-Quitado
+7;Luiz Araujo Galvao;718.142.707-36;Pensão por morte de ex-combatente marítimo(Lei nº1.756/52);Devolução;Banco;Quitado
+8;Helena Dinis Crespo;618.535.175-44;Pensão por morte de ex-combatente marítimo(Lei nº1.756/52);Devolução;MOB;Parcialmente-Quitado
+9;Rafael Dias Baptista;938.185.313-21;Pensão por morte do empregador rural;Devolução;MOB;Não-Quitado
+10;Ana Boaventura Siqueira;422.887.770-57;Pensão por morte (Ex-SASSE);Cobrança;Quitado
+11;Liz Ribeiro Modesto;959.700.442-12;Pensão por morte de ex-combatente;Cobrança;Quitado
+12;Amanda Escobar Ramos;314.144.605-46;Pensão por morte previdenciária;Devolução;MOB;Quitado
+13;Sarah Ibrahim Ornelas;419.649.994-76;Pensão por morte(Extinto Plano Básico);Devolução;MOB;Parcialmente-Quitado
+14;Miguel Meireles Alvim;817.745.351-70;Pensão por morte do empregador rural;Devolução;MOB;Não-Quitado
+15;Anthony Taveira Veiga;630.547.263-51;Pensão por morte de ex-combatente;Devolução;Banco;Não-Quitado
+16;Vitoria Gouveia Coutinho;465.800.882-27;Pensão por morte de ex-combatente marítimo(Lei nº1.756/52);Cobrança;Quitado
+17;Antonio Infante Sales;909.084.734-25;Pensão por morte de ex-combatente;Cobrança;Não-Quitado
+18;Livia Gil Sanches;536.966.913-71;Pensão por morte previdenciária;Devolução;Banco;Parcialmente-Quitado
+19;Bruno Vieira Ilha;048.753.495-40;Pensão por morte do trabalhador rural;Devolução;Banco;Não-Quitado
+20;Alice Tavares Sanches;714.064.908-23;Pensão por morte do trabalhador rural;Devolução;MOB;Parcialmente-Quitado
+21;Raul Gil Curado;527.841.658-39;Pensão por morte do Regime Geral (Decreto nº20.465/31);Cobrança;Parcialmente-Quitado
+22;Noah Beira-Mar Gois;245.385.587-34;Pensão por morte(Extinto Plano Básico);Devolução;Banco;Não-Quitado
+23;Pedro Ourique Queiroz;419.971.564-37;Pensão por morte de ex-combatente marítimo(Lei nº1.756/52);Cobrança;Não-Quitado
+24;Ana Zagalo Galvao;210.057.429-99;Pensão por morte previdenciária;Devolução;Banco;Não-Quitado
+25;Miguel Corte Peralta;430.005.858-08;Pensão por morte do empregador rural;Cobrança;Parcialmente-Quitado
+26;Martin Menezes Almada;754.837.591-50;Pensão por morte do empregador rural;Devolução;MOB;Não-Quitado
+27;Larissa Ilha Padilha;716.432.022-69;Pensão por morte previdenciária;Cobrança;Não-Quitado
+28;Raul Dorneles Peres;240.502.681-35;Pensão por morte (Ex-SASSE);Cobrança;Não-Quitado
+29;Henrique Barreto Ornelas;061.118.501-71;Pensão por morte do trabalhador rural;Cobrança;Quitado
+30;Luiz Pilar Zaganelli;527.777.465-41;Pensão por morte do trabalhador rural;Cobrança;Não-Quitado
+31;Liz Santana Assunçao;637.292.067-13;Pensão por morte do Regime Geral (Decreto nº20.465/31);Cobrança;Não-Quitado
+32;Miguel Brites Neves;009.252.249-06;Pensão por morte de ex-combatente marítimo(Lei nº1.756/52);Cobrança;Parcialmente-Quitado
+33;Miguel Santana Quarteira;823.950.167-44;Pensão por morte previdenciária;Devolução;Banco;Não-Quitado
+34;Joana Gomes Ilha;076.120.823-86;Pensão por morte (Ex-SASSE);Cobrança;Não-Quitado
+35;Maria Teixeira Leiria;276.263.159-39;Pensão por morte(Extinto Plano Básico);Devolução;Banco;Quitado
+36;Enzo Sanches Mello;201.670.702-77;Pensão por morte de ex-combatente;Cobrança;Quitado
+37;Gabriel Belchior Marques;855.741.549-71;Pensão por morte do empregador rural;Devolução;MOB;Não-Quitado
+38;Theo Cavalcante Medeiros;394.024.629-73;Pensão por morte previdenciária;Cobrança;Quitado
+39;Pietro Novais Aguiar;723.958.537-64;Pensão por morte (Ex-SASSE);Cobrança;Não-Quitado
+40;Ana Crespo Portela;133.437.374-10;Pensão por morte previdenciária;Cobrança;Não-Quitado
+41;Beatriz Marques Paiva;349.609.817-62;Pensão por morte do empregador rural;Devolução;Banco;Parcialmente-Quitado
+42;Alice Vidal Infante;657.327.160-92;Pensão por morte do Regime Geral (Decreto nº20.465/31);Cobrança;Parcialmente-Quitado
+43;Gustavo Figueiroa Cortes;027.814.104-74;Pensão por morte do trabalhador rural;Devolução;Banco;Não-Quitado
+44;Heloise Capelo Soares;104.333.780-25;Pensão por morte previdenciária;Cobrança;Parcialmente-Quitado
+45;Davi Nogueira Gentil;998.453.055-63;Pensão por morte de ex-combatente;Devolução;Banco;Não-Quitado
+46;Luiz Alves Portela;500.995.977-62;Pensão por morte(Extinto Plano Básico);Devolução;MOB;Não-Quitado
+47;Maria Veloso Assunçao;821.860.935-22;Pensão por morte do trabalhador rural;Devolução;MOB;Não-Quitado
+48;Arthur Neves Ribeiro;362.762.380-01;Pensão por morte de ex-combatente marítimo(Lei nº1.756/52);Cobrança;Não-Quitado
+49;Maria Espinosa Peres;140.243.481-56;Pensão por morte do Regime Geral (Decreto nº20.465/31);Devolução;Banco;Não-Quitado
+50;Cecilia Ximenes Sampaio;203.768.128-98;Pensão por morte de servidor público federal com dupla aposentadoria;Cobrança;Parcialmente-Quitado

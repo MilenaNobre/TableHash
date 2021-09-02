@@ -1,0 +1,126 @@
+from random import randint, choice
+
+#Protocolo
+protocolo = list()
+for p in range(51, 0, -1):
+     protocolo.append(p)
+
+a = str("Alice Miguel Sophia Arthur Helena Bernardo Valentina Heitor Laura Davi Isabella Lorenzo Manuela Théo Júlia Pedro Heloísa "
+     "Gabriel Luiza Enzo Maria Luiza Matheus Lorena Lucas Lívia Benjamin Giovanna Nicolas Maria Eduarda Guilherme Beatriz Rafael "
+     "Maria Clara Joaquim Cecília Samuel Eloá Enzo Gabriel Lara João Miguel Maria Júlia Henrique Isadora Gustavo Mariana Murilo Emanuelly "
+     "Pedro Henrique Ana Júlia Pietro Ana Luiza Lucca Ana Clara Felipe Melissa João Pedro Yasmin Isaac Maria Alice Benício Isabelly "
+     "Daniel Lavínia Anthony Esther Leonardo Sarah Davi Lucca Elisa Bryan Antonella Eduardo Rafaela João Lucas Maria Cecília "
+     "Victor Liz João Marina Cauã Nicole Antônio Maitê Vicente Isis Caleb Alícia Gael Luna Bento Rebeca Caio Agatha Emanuel Letícia "
+     "Vinícius Maria João Guilherme Gabriela Davi Lucas Ana Laura Noah Catarina João Gabriel Clara João Victor Ana Beatriz "
+     "Luiz Miguel Vitória Francisco Olívia Kaique Maria Fernanda Otávio Emilly Augusto Maria Valentina Levi Milena Yuri Maria "
+     "Helena Enrico Bianca Thiago Larissa Ian Mirella Victor Hugo Maria Flor Thomas Allana Henry Ana Sophia Luiz Felipe Clarice "
+     "Ryan Pietra Arthur Miguel Maria Vitória Davi Luiz Maya Nathan Laís Pedro Lucas Ayla Davi Miguel Ana Lívia Raul Eduarda Pedro Miguel "
+     "Mariah Luiz Henrique Stella Luan Ana Erick Gabrielly Martin Sophie Bruno Carolina Rodrigo Maria Laura Luiz Gustavo Maria Heloísa "
+     "Arthur Gabriel Maria Sophia Breno Fernanda Kauê Malu Enzo Miguel Analu Fernando Amanda Arthur Henrique Aurora Luiz Otávio "
+     "Maria Isis Carlos Eduardo Louise Tomás Heloise Lucas Gabriel Ana Vitória André Ana Cecília José Ana Liz Yago Joana Danilo "
+     "Luana Anthony Gabriel Antônia Ruan Isabel Miguel Henrique Bruna "
+     "Oliver").replace('á', 'a').replace('ã', 'a').replace('â', 'a').replace('é', 'e').replace('ê', 'e').replace('í','i')\
+     .replace('ó', 'o').replace('õ', 'o').replace('ô', 'o').replace('ú', 'u').replace('ç', 'ç').replace('–', '').replace('Ý', 'Y').split()
+
+b = str("Agostinho – Aguiar– Albuquerque– Alegria– Alencastro– Almada– Alves – Alvim – Amorim – Andrade – Antunes – Aparício "
+     "– Apolinário – Araújo – Arruda – Assis – Assunção – Ávila – Azambuja – Baptista – Barreto – Barros – Beira-Mar – Belchior – Belém "
+     "– Bernardes – Bittencourt – Boaventura – Bonfim– Botelho– Brites– Brito– Caetano– Calixto– Camacho– Camilo– Capelo– Castro "
+     "– Cavalcante– Chaves– Conceição– Corte Real– Cortês– Coutinho– Crespo– Cunha– Curado– Custódio– Córdoba– Damásio– Dantas "
+     "– Dias– Dinís– Domingues– Dorneles– Reis– Drumond– Escobar– Espinosa– Esteves– Evangelista– Farias– Ferrari– Figueiredo– "
+     "Figueiroa– Flores– Fogaça– Freitas– Frutuoso– Furtado– Félix– Galvão– Garcia– Gaspar– Gentil– Geraldes– Gil– Godinho– Gomes– Gonzaga– Goulart– Gouveia "
+     "– Guedes– Guimarães– Guterres– Góis– Hernandes– Hilário– Hipólito– Ibrahim– Ilha– Infante– Jaques– Jesus– Jordão– Lacerda "
+     "– Lancastre– Leiria– Lessa– Machado– Maciel– Magalhães– Maia– Maldonado– Marinho– Marques– Martins– Medeiros– Meireles– Mello "
+     "– Mendes– Menezes– Mesquita– Modesto– Monteiro– Morais– Moreira– Morgado– Moura– Muniz– Neves– Nogueira– Novais– Nóbrega "
+     "– Ornélas– Oliveira– Ourique– Pacheco– Padilha– Paiva– Paraíso– Paris– Peixoto– Peralta– Peres– Pilar– Pimenta– Pinheiro– Portela "
+     "– Quaresma– Quarteira– Queiroz– Ramires– Ramos– Rebelo– Resende– Ribeiro– Salazar– Sales– Salgado– Salgueiro– Sampaio– Sanches "
+     "– Santana– Siqueira– Soares– Subtil– Tavares– Taveira– Teixeira– Teles– Torres– Trindade– Varela– Vargas– Vasconcelos– Vasques "
+     "– Veiga– Veloso– Vidal– Vieira– Vilela– Xavier– Ximenes– Xisco– Zagalo– Zanette– "
+     "Zaganelli").replace('á', 'a').replace('ã', 'a').replace('â', 'a').replace('é', 'e').replace('ê', 'e').replace('í','i')\
+     .replace('ó', 'o').replace('õ', 'o').replace('ô', 'o').replace('ú', 'u').replace('ç', 'ç').replace('–', '').replace('Ý', 'Y').split()
+
+nomes = set()
+while len(nomes)<50:
+     name = a[randint(0, len(a)-1)], b[randint(0, len(b)-1)], b[randint(0, len(b)-1)]
+     name = str(name).replace("'",'').replace('(','').replace(')','').replace(',','')
+     nomes.add(name)
+#Fim nomes
+
+
+#Cpf
+cpf = set()
+
+while len(cpf)<50:
+     c = randint(0,9), randint(0,9), randint(0,9), '.', randint(0,9), randint(0,9), randint(0,9), '.', randint(0,9), randint(0,9), randint(0,9), '-', randint(0,9), randint(0,9)
+     c = str(c).replace('(', '').replace(', ', '').replace("'", '').replace(')', '')
+     cpf.add(c)
+#Fim cpf
+
+
+#Situação Pagamento
+situacao_pagamento = str("Quitado Não-Quitado Parcialmente-Quitado").split()
+situacao_pagamentos = list()
+for sp in range(50):
+    situacao_pagamentos.append(situacao_pagamento[randint(0,len(situacao_pagamento)-1)])
+#fim Pagamento
+
+
+#Tipo de Benefício
+tipos_beneficio = str("Pensão_por_morte_do_trabalhador_rural Pensão_por_morte_do_empregador_rural Pensão_por_morte_previdenciária Pensão_por_morte_de_ex-combatente Pensão_por_morte_de_servidor_público_federal_com_dupla_aposentadoria Pensão_por_morte_do_Regime_Geral_(Decreto_nº20.465/31)  Pensão_por_morte_de_ex-combatente_marítimo(Lei_nº1.756/52) Pensão_por_morte(Extinto_Plano_Básico) Pensão_por_morte_(Ex-SASSE)").split()
+tipos_beneficios = list()
+for tb in range(50):
+    tipos = tipos_beneficio[randint(0,len(tipos_beneficio)-1)]
+    tipos = str(tipos).replace('_',' ')
+    tipos_beneficios.append(tipos)
+#Fim Benefício
+
+
+#Tipo de ação
+acoes = list()
+devolucao = str("Devolução")
+cobranca = str("Cobrança")
+tipo_acao = str("Devolução Cobrança").split()
+tipo_acoes = list()
+
+for p1 in range(50):
+    tipo_acoes.append(tipo_acao[randint(0,len(tipo_acao)-1)])
+
+
+#fim ação
+
+#Tipo de pagamento
+tipo_pagamento = str("MOB Banco").split()
+tipo_pagamentos = list()
+for p1 in range(50):
+    tipo_pagamentos.append(tipo_pagamento[randint(0,len(tipo_pagamento)-1)])
+#fim pagamento
+
+
+arq = open('Dados_teste.txt', 'w')
+
+while len(nomes) != 0:
+    arq.write(str(protocolo.pop()))
+    arq.write(';')
+    arq.write(nomes.pop())
+    arq.write(';')
+    arq.write(cpf.pop())
+    arq.write(';')
+    arq.write(tipos_beneficios.pop())
+    #arq.write(tipo_acoes.pop())
+    #arq.write('\n')
+    a = tipo_acoes.pop()
+    if a.split()[0] in devolucao:
+        arq.write(';')
+        arq.write(a)
+        arq.write(';')
+        arq.write(tipo_pagamentos.pop())
+        arq.write(';')
+        arq.write(situacao_pagamentos.pop())
+        arq.write('\n')
+    else:
+        arq.write(';')
+        arq.write(cobranca)
+        arq.write(';')
+        arq.write(situacao_pagamentos.pop())
+        arq.write('\n')
+
+arq.close()
